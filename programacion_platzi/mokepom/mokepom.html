@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mokepom</title>
+        <meta charsert="utf-8">
+        <link rel="stylesheet" href="./style.css">
+        
+    </head>
+    <body>
+        <section id="seleccionar-mascota">
+            <h1 class="tittle" id="titulo">Mokepon 🔥💧🌱</h1>
+
+            <h2 class="subtitulo">Elige a tu mascota:</h2>
+
+            <div id="contenedorTarjetas" class="tarjetas">
+                <!--Se insertara el html generado en javascript-->
+            </div>
+
+            <button id="boton-mascota">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+
+            <h1 class="tittle" id="titulo">Mokepon 🔥💧🌱</h1>
+
+            <h2 class="subtitulo">Elige a tu ataque:</h2>
+
+            <div class="botones-ataques">
+                <button class="boton-de-ataque" id="boton-Fuego">Fuego 🔥</button>
+                <button class="boton-de-ataque"  id="boton-Agua">Agua 💧</button>
+                <button class="boton-de-ataque"  id="boton-Tierra">Tierra 🌱</button>
+            </div>
+
+            <div id="mensajes">
+                <p id="resultado">Mucha suerte!!</p>
+
+                <section id="reiniciar-juego">
+                    <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div>
+
+            <div class="detalles-padre">
+
+                <div class="detalles-jugador">
+                    <p id="vida-jugador">3</p>
+                    <p id="mascota-jugador"></p>
+                    <p id="ataques-del-jugador"></p>
+                </div>
+                <div class="detalles-enemigo">
+                    <p id="vida-enemigo">3</p>
+                    <p id="mascota-enemigo"></p>
+                    <p id="ataques-del-enemigo"></p>
+                </div>
+            </div>  
+        </section>
+
+        
+        <script src="./js_mokepom/cod_moke.js"></script>
+    </body>
+</html>

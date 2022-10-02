@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #5D8BF4;
+}
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tittle{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 32px;
+
+}
+.subtitulo{
+    color: white;
+    font-size: 20px;
+
+}
+
+.tarjetas, .botones-ataques{
+    display: flex;
+    gap: 10px;
+}
+.tarjeta-de-mokepom img{
+    width: 70px;
+}
+.tarjeta-de-mokepom{
+    width: 180px;
+    height: 100px;
+    background-color: #59CE8F;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    
+}
+#boton-mascota{
+    width: 115px;
+    height: 39px;
+    border-radius: 30px;
+    background: #D82148;
+    border: 2px solid #151D3B;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+
+    
+}
+
+input{
+    display: none;
+}
+input:checked + label {
+    
+    background-color: rgb(231, 76, 60 );
+}
+
+
+#seleccionar-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.boton-de-ataque{
+    background-color: #D82148;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width:100px;
+    color:white;
+}
+#mensajes{
+    width:280px;
+    background: pink;
+    padding:20px;
+    margin-top:20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+}
+#boton-reiniciar{
+    border:none;
+    background-color: transparent;
+    color:#D82148;
+}
+.detalles-padre{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+.detalles-jugador, .detalles-enemigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width:360px){
+    .tarjetas{
+        flex-direction: column;
+    }
+    .botones-ataques{
+        flex-direction: column;
+    }
+    
+}
+
